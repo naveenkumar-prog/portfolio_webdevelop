@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Personal Portfolio | Responsive Website Design</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">Portfolio</a>
+		<div class="toggle" onclick="toggleMenu();"></div>
+		<ul class="menu">
+			<li><a href="#home" onclick="toggleMenu();">Home</a></li>
+			<li><a href="#about" onclick="toggleMenu();">About</a></li>
+			<li><a href="#services" onclick="toggleMenu();">Skills</a></li>
+			<li><a href="#work" onclick="toggleMenu();">Projects</a></li>
+			<li><a href="#testimonials" onclick="toggleMenu();">Project Explanation</a></li>
+			<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+		</ul>
+	</header>
+	<section class="banner" id="home">
+		<div class="textBx">
+			<h2>Hello, <b>I'm Naveen Kumar</b></h2>
+			<h3>I'm a  Web developer.</h3>
+			<a href="#about" class="btn">About Me</a>
+		</div>
+	</section>
+
+
+	<section class="about" id="about">
+		<div class="heading">
+			<h2>About Me</h2>
+		</div>
+		<div class="content">
+			<div class="contentBx w50">
+				<h3>I'm a  Web developer</h3>
+				<p>I am Naveen from TamilNadu, India. I am currently pursuing my 4th year Master of Science in Decision and Computing Sciences. I am fond of web development. I am a quick learner, so, I can easily grab the new things and able to provide the results whatever the superiors expect. I can also easily mingle with a new envirionment. Actually, I am studing the course which covers web development, Data Analysis  and some Accounting subjects too. So, I have a strong basics in these areas. 
+				<br><br> I have done some academic projects of Data Analysis and web development. I have completed a 6 Month internship in web development and an one month Data Analyst internship. In web development internship I have done an E-Commerce website using JavaScript, MySql and Jersey framework. And In Data Analyst intership, I have done a sample sentiment analysis project and made some analysis on smaple data in Power BI. Currently, I am looking for an internship where I can give my best and explore new things </p>
+			</div>
+			<div class="w50">
+				<img src="img.jpg" class="img">
+			</div>
+		</div>
+	</section>
+
+	<section class="services" id="services">
+		<div class="heading white">
+			<h2>My Skills</h2>
+			<p>These are the skills, what I am having on a specific domain</p>
+		</div>
+		<div class="content">
+			<div class="servicesBx">
+				<img src="icon1.png">
+				<h2>Designing Skill</h2>
+				<p>I have done only a few designs. I have used Adobe XD and Figma for designing. </p>
+			</div>
+			<div class="servicesBx">
+				<img src="icon2.png">
+				<h2>Front End Knowledge</h2>
+				<p>Actuallly, I love Front_end domain. I know HTML, CSS, Javascript, and Basic JQuery and React JS. And Now, I am doing an  online course in React </p>
+			</div>
+			
+			<div class="servicesBx">
+				<img src="icon8.png">
+				<h2>Back End Knowledge</h2>
+				<p>I love back-end as much as Front-end. I know PHP, MySql and Oracle. And I am doing an Django online course </p>
+			</div>
+			<div class="servicesBx">
+				<img src="icon3.png">
+				<h2>Android App</h2>
+				<p>I have done some android projects using Java and Firebase console. But, I don't have a depth knowledge in it  </p>
+			</div>
+			<div class="servicesBx">
+				<img src="icon6.png">
+				<h2>Programming Skills</h2>
+				<p>Actually, In free times, I used to do solve problems in online sites like Hackerrank. And I know, C Programming, Java,
+				Python and some basics in C++ </p>
+			</div>
+			<div class="servicesBx">
+				<img src="icon5.png">
+				<h2>Data Analysis</h2>
+				<p>I used to analyze the data in Jupyter Notebook and while making charts and diagrams, I prefer Power BI</p>
+			</div>
+		</div>		
+	</section>
+
+	<section class="work" id="work">
+		<div class="heading">
+			<h2>My Projects</h2>
+			<p>These are the works what I have done </p>
+		</div>
+		<div class="content">
+			<div class="workBx" id="image1">
+				<img src="bake.jpg" height="450px">
+			</div>
+			<div class="workBx" id="image2">
+				<img src="myeshop.png" height="450px">
+			</div>
+			<div class="workBx" id="image3">
+				<img src="youtube.jpg" height="450px">
+			</div>
+			<div class="workBx" id="image4">
+				<img src="zila.png" height="450px">
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="testimonial" id="testimonials">
+		<div class="heading">
+			<h2>Project Explanation</h2>
+			<p>These are the explanation for the above shown project images. </p>
+		</div>
+		<div class="content">
+			<div class="testimonialBx">
+				<h3>Web Page Design for Bakery</h3>
+				<p>I have developed this design using Adobe XD for one of my relatives. I have inserted all the detais what they expected to show, in a single page. The ouput of the project is the <a href="#image1"><b> image1</b></a> </p>
+			</div>
+			<div class="testimonialBx">
+				<h3>Website for Clothing Store</h3>
+				<p>I have created this website for a dummy clothing store as an academic project. I have developed it using WordPress. And the sample Ouput of this project is <a href="#image2"><b>image2</b></a> </p>
+			</div>
+			<div class="testimonialBx">
+				<h3>Youtube UI Recreation</h3>
+				<p>This project is one of the tasks which was given to me in one of the internship selection processes. And I had completed this task successfully and went to the next round. I had developed this through React JS. And the sample output of this project is <a href="#image3"><b>image3</b></a></p>
+			</div>
+			<div class="testimonialBx">
+				<h3>E-commmerce Website</h3>
+				<p>This is the project what I had made in a 6 month internship. I had created a admin website through which he can monitor and made changes to the live e-commerce website. I had developed it through MySql, Javascript and Jersey framework. And the sample output of this project is <a href="#image4"><b>image4</b></a></p>
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="heading white">
+			<h2>To Contact </h2>
+			<p>I am assure that the given details are real and not consists of any fake information</p>
+		</div>
+		<div class="content">
+			<div class="contactInfo">
+				<h3>Contact Info</h3>
+				<div class="contactInfoBx">
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-map-marker"></i>
+						</div>
+						<div class="text">
+							<h3>Address</h3>
+							<p>Ammapalayam,<br>Karunampathi[po],Tirupur[Dt],<br>TamilNadu<br>641666</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-phone"></i>
+						</div>
+						<div class="text">
+							<h3>Phone</h3>
+							<p>91-6379259575</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-envelope"></i>
+						</div>
+						<div class="text">
+							<h3>E-mail</h3>
+							<p>rdnknaveen@gmail.com</p>
+						</div>
+					</div>					
+				</div>
+			</div>
+
+		<div class="contactInfo">
+				<h3>Profile Info</h3>
+		<div class="contactInfoBx">
+					<div class="box">
+						<div class="icon">
+							<i class="fab fa-linkedin" style="font-size:36px;color: white;"></i>
+						</div>
+						<div class="text">
+							<h3>Linked in</h3>
+							<p><a href="https://www.linkedin.com/in/naveen-kumar-4984b81a4/" target="_blank">Linked-in/Naveen</a></p>
+							<p>naveen-kumar-4984b81a4/</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<i class="fab fa-github" style="font-size:36px"></i>
+						</div>
+						<div class="text">
+							<h3>Github</h3>
+							<p><a href="https://github.com/naveenkumar-prog" target="_blank">Github/Naveen</a></p>
+							<p>naveenkumar-prog</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<i class="fab fa-hackerrank" style="font-size:36px"></i>
+						</div>
+						<div class="text">
+							<h3>Hackerrank</h3>
+							<p><a href="https://www.hackerrank.com/rdnknaveen" target="_blank">Hackerrank/Naveen</a></p>
+							<p></p>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="copyright">
+		<p>Copyright @ 2021 rdnk. All Rights Reserved</p>
+	</div>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll',function(){
+			var header = document.querySelector('header');
+			header.classList.toggle('sticky',window.scrollY > 0);
+		});
+
+		function toggleMenu(){
+			var menuToggle = document.querySelector(".toggle");
+			var menu = document.querySelector('.menu');
+			menuToggle.classList.toggle('active')
+			menu.classList.toggle('active')
+		}
+	</script>
+</body>
+</html>
